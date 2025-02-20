@@ -15,7 +15,12 @@ namespace MeLi.TiendaDeporte.Presentation.Controllers
             _configuration = configuration;
         }
 
-        [HttpPost("login")]
+        /// <summary>
+        /// Obtiene el token necesario para poder consumir los endpoints, requiere una clave secreta (mirar el archivo Terms).
+        /// </summary>
+        /// <param name="secret"></param>
+        /// <returns>Token de autorizacion.</returns>
+        [HttpPost()]
         public IActionResult Login([FromBody] string secret)
         {
             if (secret == Terms.Secret)

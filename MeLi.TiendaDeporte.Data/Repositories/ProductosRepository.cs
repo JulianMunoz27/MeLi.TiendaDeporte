@@ -3,7 +3,6 @@ using MeLi.TiendaDeporte.Domain.Dto;
 using MeLi.TiendaDeporte.Domain.Helpers;
 using MeLi.TiendaDeporte.Domain.Models;
 using MeLi.TiendaDeporte.Domain.Services.ProductosDomain;
-using System.Data.Entity;
 
 namespace MeLi.TiendaDeporte.Data.Repositories
 {

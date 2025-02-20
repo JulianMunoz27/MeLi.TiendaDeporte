@@ -1,11 +1,5 @@
 ﻿using MeLi.TiendaDeporte.Domain.Factory;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace MeLi.TiendaDeporte.Data
 {
     public class GenericRepository<TEntity> : IRepository<TEntity> where TEntity : class, new()

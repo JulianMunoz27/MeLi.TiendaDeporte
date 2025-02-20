@@ -12,6 +12,11 @@ namespace MeLi.TiendaDeporte.Presentation.Controllers
     [Route("api/[controller]")]
     public class ProductosController : ControllerBase
     {
+        /// <summary>
+        /// Crea un nuevo producto.
+        /// </summary>
+        /// <param name="productosDto"></param>
+        /// <returns>Producto creado.</returns>
         [Authorize]
         [HttpPost]
         public IActionResult Post([FromBody] ProductosDto productosDto)
@@ -28,6 +33,11 @@ namespace MeLi.TiendaDeporte.Presentation.Controllers
             }
         }
 
+        /// <summary>
+        /// Obtiene un producto filtrado por nombre de categoria.
+        /// </summary>
+        /// <param name="categoria"></param>
+        /// <returns>Producto encontrado.</returns>
         [Authorize]
         [HttpGet]
         [Route("Categorias/{categoria}")]
@@ -50,6 +60,11 @@ namespace MeLi.TiendaDeporte.Presentation.Controllers
             }
         }
 
+        /// <summary>
+        /// Obtiene un producto filtrado por id.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Producto encontrado.</returns>
         [Authorize]
         [HttpGet]
         [Route("{id}")]
@@ -72,6 +87,10 @@ namespace MeLi.TiendaDeporte.Presentation.Controllers
             }
         }
 
+        /// <summary>
+        /// Obtiene todos los productos existentes.
+        /// </summary>
+        /// <returns>Todos los productos existentes.</returns>
         [Authorize]
         [HttpGet]
         public IActionResult Get()
@@ -93,6 +112,11 @@ namespace MeLi.TiendaDeporte.Presentation.Controllers
             }
         }
 
+        /// <summary>
+        /// Actualiza un producto existente.
+        /// </summary>
+        /// <param name="producto"></param>
+        /// <returns>Mensaje de confirmacion.</returns>
         [Authorize]
         [HttpPut]
         public IActionResult Put([FromBody] Productos producto)
@@ -109,6 +133,11 @@ namespace MeLi.TiendaDeporte.Presentation.Controllers
             }
         }
 
+        /// <summary>
+        /// Elimina un producto existente.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Mensaje de confirmacion.</returns>
         [Authorize]
         [HttpDelete]
         [Route("{id}")]
@@ -126,7 +155,11 @@ namespace MeLi.TiendaDeporte.Presentation.Controllers
             }
         }
 
-        //[Authorize]
+        /// <summary>
+        /// Obtiene las metricas relacionadas a los productos.
+        /// </summary>
+        /// <returns>Metricas calculadas.</returns>
+        [Authorize]
         [HttpGet]
         [Route("Metricas")]
         public IActionResult GetMetricas()

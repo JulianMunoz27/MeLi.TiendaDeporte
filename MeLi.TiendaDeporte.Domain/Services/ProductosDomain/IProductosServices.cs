@@ -1,10 +1,5 @@
 ﻿using MeLi.TiendaDeporte.Domain.Dto;
 using MeLi.TiendaDeporte.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeLi.TiendaDeporte.Domain.Services.ProductosDomain
 {
