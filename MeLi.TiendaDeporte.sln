@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeLi.TiendaDeporte.Presentation", "MeLi.TiendaDeporte\MeLi.TiendaDeporte.Presentation.csproj", "{A35D06A3-FB01-4EAA-91C8-C8D25D4F2467}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{9E6614B8-EC37-4C29-A52A-F1A1FB460915}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{6D71606C-1F4F-4F99-B06B-AFACA82059F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{66FD7A59-859E-4F1B-BA65-E9730380A5FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{61766C29-D87F-46AB-B8F6-AA28EE3647F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{BC5A2ED9-36E4-46C5-BBB9-686753F47238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeLi.TiendaDeporte.Application", "MeLi.TiendaDeporte.Application\MeLi.TiendaDeporte.Application.csproj", "{9C593148-A5FD-4488-B6F0-A95659581D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeLi.TiendaDeporte.Domain", "MeLi.TiendaDeporte.Domain\MeLi.TiendaDeporte.Domain.csproj", "{5DD35519-46A7-47F2-BBB6-0A315676821F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeLi.TiendaDeporte.Data", "MeLi.TiendaDeporte.Data\MeLi.TiendaDeporte.Data.csproj", "{EEB00E7B-AC8B-47A9-92D4-4D80820EC66E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A35D06A3-FB01-4EAA-91C8-C8D25D4F2467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35D06A3-FB01-4EAA-91C8-C8D25D4F2467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35D06A3-FB01-4EAA-91C8-C8D25D4F2467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35D06A3-FB01-4EAA-91C8-C8D25D4F2467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C593148-A5FD-4488-B6F0-A95659581D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C593148-A5FD-4488-B6F0-A95659581D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C593148-A5FD-4488-B6F0-A95659581D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C593148-A5FD-4488-B6F0-A95659581D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD35519-46A7-47F2-BBB6-0A315676821F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD35519-46A7-47F2-BBB6-0A315676821F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD35519-46A7-47F2-BBB6-0A315676821F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD35519-46A7-47F2-BBB6-0A315676821F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB00E7B-AC8B-47A9-92D4-4D80820EC66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB00E7B-AC8B-47A9-92D4-4D80820EC66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB00E7B-AC8B-47A9-92D4-4D80820EC66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB00E7B-AC8B-47A9-92D4-4D80820EC66E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A35D06A3-FB01-4EAA-91C8-C8D25D4F2467} = {9E6614B8-EC37-4C29-A52A-F1A1FB460915}
+		{9C593148-A5FD-4488-B6F0-A95659581D2E} = {6D71606C-1F4F-4F99-B06B-AFACA82059F3}
+		{5DD35519-46A7-47F2-BBB6-0A315676821F} = {66FD7A59-859E-4F1B-BA65-E9730380A5FE}
+		{EEB00E7B-AC8B-47A9-92D4-4D80820EC66E} = {61766C29-D87F-46AB-B8F6-AA28EE3647F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1196C141-7C67-4FBF-8A96-A44E29704B49}
+	EndGlobalSection
+EndGlobal
