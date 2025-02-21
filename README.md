@@ -1,6 +1,6 @@
 # Descripción
 
-Proyecto creado para el challenge de [Mercado Libre](https://choosealicense.com/licenses/mit/) en mi proceso de selección.
+Proyecto creado para el challenge de [Mercado Libre](https://www.mercadolibre.com.co/) en mi proceso de selección.
 
 ## Instrucciones
 
