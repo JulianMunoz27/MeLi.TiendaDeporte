@@ -4,7 +4,7 @@ Proyecto creado para el challenge de [Mercado Libre](https://www.mercadolibre.co
 
 ## Instrucciones
 
-Para correr este proyecto es necesaria la conexión a base de datos, a continuación están los scripts.
+Para correr este proyecto es necesaria la conexión a una base de datos SQL, la cual usé debido a sus capacidades para la escalabilidad y el rendimiento, a continuación están los scripts.
 
 ## Creación de la base de datos
 
