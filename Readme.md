@@ -1,4 +1,4 @@
-﻿# Descripción
+# Descripción
 
 Proyecto creado para el challenge de [Mercado Libre](https://choosealicense.com/licenses/mit/) en mi proceso de selección.
 
